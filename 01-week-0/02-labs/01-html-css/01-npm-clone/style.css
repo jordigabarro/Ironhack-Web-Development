@@ -33,10 +33,46 @@ nav a {
    margin-right: 1rem;
 }
 
+.second-row{
+padding-top:8px;
+padding-bottom: 8px;
+}
+
 .logo{
-   width: 60px;
+   width: 73px;
+}
+
+.search-form {
+   display: flex;
+   align-items: center;
+}
+
+.search-container {
+   position: relative;
 }
 
 .mglass{
    width: 20px;
+   position: absolute;
+   top: 50%;
+   left: 10px;
+   transform: translateY(-50%);
+   pointer-events: none;
+}
+
+.search-bar{
+   background-color: rgba(0, 0, 0, .05);
+   border: none;
+   width: 750px;
+   height: 39px;
+   padding-left: 40px;
+   
+}
+
+.search-button{
+   background-color: #fb3e44;
+   border: none;
+   height: 40px;
+   color: white;
+   width: 70px;
 }
