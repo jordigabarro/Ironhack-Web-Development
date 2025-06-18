@@ -119,6 +119,7 @@ h5 {
    align-items: center;
    width: 370px;
 }
+
 .container {
    width: 1200px;
    margin: 0 auto;
@@ -143,7 +144,7 @@ h5 {
    padding: 10px 30px;
 }
 
-#structure > div {
+#structure>div {
    display: flex;
    justify-content: space-between;
    flex-direction: row;
@@ -183,12 +184,12 @@ h5 {
    width: 40%;
 }
 
-#team > div {
+#team>div {
    display: flex;
    justify-content: space-evenly;
 }
 
-#team > div > article {
+#team>div>article {
    display: flex;
    justify-content: center;
    flex-direction: column;
