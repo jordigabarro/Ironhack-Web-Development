@@ -5,6 +5,7 @@ console.log(`The driver's name is ${hacker1}`);
 let hacker2 = "Lara Gabarró Hernández";
 console.log(`The navigator's name is ${hacker2}`);
 
+
 // Iteration 2: Conditionals
 //Depending on which name is longer
 if (hacker1.length > hacker2.length) {
@@ -14,6 +15,7 @@ if (hacker1.length > hacker2.length) {
 } else {
    console.log(`Wow, you both have equally long names, ${hacker1.length} characters!`);
 }
+
 
 // Iteration 3: Loops
 //Print the characters of the driver's name, separated by space, and in capital letters,
@@ -82,9 +84,9 @@ while (m < longText.length) {
 
 console.log(`${countEt}`);
 
+
 //Bonus 2
 //Write a code to check if the value assigned to this variable is a Palindrome.
-
 let phraseToCheck = "A man, a plan, a canal, Panama!";
 let n = 0;
 let string1 = "";
