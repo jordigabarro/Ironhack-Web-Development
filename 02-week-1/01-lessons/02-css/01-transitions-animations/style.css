@@ -1,0 +1,76 @@
+.container {
+   margin: 20px 0 0 20px;
+   display: flex;
+}
+
+.circle {
+   background: #456789;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   margin: 10px;
+   animation: bounce 1s ease-in-out infinite;
+}
+
+.square {
+   background: #456789;
+   height: 30px;
+   width: 30px;
+   margin: 10px;
+   animation: slide 2s ease-in-out;
+   animation-delay: 5s;
+}
+
+.triangle {
+   margin: 10px;
+   border-style: solid;
+   border-color: transparent transparent #456789 transparent;
+   border-width: 0 20px 30px 20px;
+   animation: zigzag 4s linear;
+}
+
+@keyframes bounce {
+
+   0%,
+   100% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(-20px);
+   }
+}
+
+@keyframes slide {
+
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(200px);
+   }
+}
+
+@keyframes zigzag {
+   0% {
+      transform: translate(0, 0);
+      /* Combina X e Y */
+   }
+
+   25% {
+      transform: translate(75px, 75px);
+   }
+
+   50% {
+      transform: translate(-75px, 150px);
+   }
+
+   75% {
+      transform: translate(75px, 225px);
+   }
+
+   100% {
+      transform: translate(-75px, 300px);
+   }
+}
