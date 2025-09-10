@@ -55,3 +55,134 @@ nav ul li a {
     font-size: 1.2rem;
     margin: 10px 0 0;
 }
+
+.whats-on {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.whats-on h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    border-bottom: 4px solid #00B172;
+    /* Línia verda gruixuda */
+    display: inline-block;
+    /* Per què la línia només ocupi l'ample del text */
+    padding-bottom: 10px;
+    /* Espai entre el text i la línia */
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Alinea els elements a la part superior */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra els elements horitzontalment */
+}
+
+.feature img {
+    width: 100px;
+    /* Amplada fixa */
+    height: 100px;
+    /* Alçada fixa */
+    object-fit: contain;
+    /* Manté la proporció de la imatge */
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    color: #00B172;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.feature p {
+    color: #1A1A1A;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.yeezy {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+    padding: 100px 150px; /* Més padding als costats i dalt/baix */
+    max-width: 1400px; /* Limitar l'amplada màxima */
+    margin: 0 auto; /* Centrar la secció */
+    min-height: 700px; /* Més altura mínima */
+}
+
+.yeezy .spotify-icon {
+    width: 80px; /* Reduïm la mida del logo */
+    position: absolute;
+    top: 50%; /* Canviem de -50px a 50% */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Afegim transformació en Y */
+}
+
+.yeezy-content {
+    flex: 1;
+    padding-right: 100px; /* Més espai entre el contingut i la imatge */
+    max-width: 600px;
+}
+
+.yeezy-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    border-bottom: 4px solid white;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.yeezy-features {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Més espai entre els features */
+    margin-top: 60px; /* Més espai després del títol */
+}
+
+.yeezy-feature {
+    padding: 20px 0; /* Afegir padding vertical */
+}
+.yeezy-feature h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.yeezy-feature p {
+    line-height: 1.5;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.yeezy-app {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px; /* Afegir espai a l'esquerra de la imatge */
+}
+
+.yeezy-app img {
+    width: 80%; /* Reduïm de 100% a 80% */
+    max-width: 400px; /* Reduïm de 500px a 400px */
+    height: auto;
+}
